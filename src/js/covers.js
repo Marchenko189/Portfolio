@@ -1,23 +1,23 @@
-import cover01_1x from '../img/covers/cover01@1x.jpg';
-import cover01_2x from '../img/covers/cover01@2x.jpg';
-import cover02_1x from '../img/covers/cover02@1x.jpg';
-import cover02_2x from '../img/covers/cover02@2x.jpg';
-import cover03_1x from '../img/covers/cover03@1x.jpg';
-import cover03_2x from '../img/covers/cover03@2x.jpg';
-import cover04_1x from '../img/covers/cover04@1x.jpg';
-import cover04_2x from '../img/covers/cover04@2x.jpg';
-import cover05_1x from '../img/covers/cover05@1x.jpg';
-import cover05_2x from '../img/covers/cover05@2x.jpg';
-import cover06_1x from '../img/covers/cover06@1x.jpg';
-import cover06_2x from '../img/covers/cover06@2x.jpg';
-import cover07_1x from '../img/covers/cover07@1x.jpg';
-import cover07_2x from '../img/covers/cover07@2x.jpg';
-import cover08_1x from '../img/covers/cover08@1x.jpg';
-import cover08_2x from '../img/covers/cover08@2x.jpg';
-import cover09_1x from '../img/covers/cover09@1x.jpg';
-import cover09_2x from '../img/covers/cover09@2x.jpg';
-import cover10_1x from '../img/covers/cover10@1x.jpg';
-import cover10_2x from '../img/covers/cover10@2x.jpg';
+import cover01_1x from '../img/covers/cover01@1x.webp';
+import cover01_2x from '../img/covers/cover01@2x.webp';
+import cover02_1x from '../img/covers/cover02@1x.webp';
+import cover02_2x from '../img/covers/cover02@2x.webp';
+import cover03_1x from '../img/covers/cover03@1x.webp';
+import cover03_2x from '../img/covers/cover03@2x.webp';
+import cover04_1x from '../img/covers/cover04@1x.webp';
+import cover04_2x from '../img/covers/cover04@2x.webp';
+import cover05_1x from '../img/covers/cover05@1x.webp';
+import cover05_2x from '../img/covers/cover05@2x.webp';
+import cover06_1x from '../img/covers/cover06@1x.webp';
+import cover06_2x from '../img/covers/cover06@2x.webp';
+import cover07_1x from '../img/covers/cover07@1x.webp';
+import cover07_2x from '../img/covers/cover07@2x.webp';
+import cover08_1x from '../img/covers/cover08@1x.webp';
+import cover08_2x from '../img/covers/cover08@2x.webp';
+import cover09_1x from '../img/covers/cover09@1x.webp';
+import cover09_2x from '../img/covers/cover09@2x.webp';
+import cover10_1x from '../img/covers/cover10@1x.webp';
+import cover10_2x from '../img/covers/cover10@2x.webp';
 
 const coversArr = [
   {
@@ -98,25 +98,6 @@ picturesLines.forEach(li => {
 
   li.innerHTML = shuffledCovers;
 });
-
-// picturesLines.forEach(li => {
-//   const covers = coversArr
-//     .map(
-//       ({ src1x, src2x, alt }) =>
-//         `<img
-//               srcset="
-//                 ${src1x} 1x,
-//                 ${src2x} 2x
-//               "
-//               src=${src1x}
-//               alt="${alt}"
-//               class="covers-picture"
-//             />`
-//     )
-//     .join('');
-
-//   li.innerHTML = covers;
-// });
 
 document.addEventListener('DOMContentLoaded', () => {
   const coversSection = document.querySelector('.covers-section');
