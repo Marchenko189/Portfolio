@@ -6,8 +6,8 @@ html {
 .header {
   position: absolute;
   top: 32px;
-  left: 0;
-  right: 0;
+  left: 16px;
+  right: 16px;
   background: transparent;
   z-index: 10;
 }
@@ -46,8 +46,9 @@ html {
 }
 
 @media screen and (min-width: 768px) {
-  .header-cont {
-    max-width: 768px;
+  .header {
+    left: 32px;
+    right: 32px;
   }
 
   .header-burger-btn {
@@ -161,10 +162,6 @@ html {
 }
 
 @media screen and (min-width: 1440px) {
-  .header-cont {
-    max-width: 1440px;
-  }
-
   .header-burger-btn {
     display: none;
   }
@@ -218,7 +215,7 @@ html {
 .header-burger-btn {
   position: absolute;
   top: 0;
-  right: 16px;
+  right: 0;
   width: 28px;
   height: 28px;
   background: none;

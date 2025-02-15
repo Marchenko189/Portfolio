@@ -7,9 +7,6 @@
   padding-bottom: 32px;
   margin-bottom: 64px;
 }
-.hero-container {
-  padding: 0 16px;
-}
 /* ------------------------------------ */
 @media only screen and (min-resolution: 2dppx) {
   .hero-section {

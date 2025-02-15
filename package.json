@@ -1,11 +1,11 @@
 {
-  "name": "ProfIT-project01",
+  "name": "portfolio",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/ProfIT-project01/",
+    "build": "vite build --base=/Portfolio/",
     "preview": "vite preview"
   },
   "devDependencies": {
@@ -17,7 +17,6 @@
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "axios": "^1.7.9",
     "accordion-js": "^3.4.0",
     "axios": "^1.7.9",
     "izitoast": "^1.4.0",
