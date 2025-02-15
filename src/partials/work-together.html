@@ -1,0 +1,74 @@
+<footer class="footer" id="work-togeth">
+  <div class="footer-container container">
+    <div class="footer-head-container">
+      <img
+        srcset="
+          ./img/work-together/icons/footer-icon_1x.png 1x,
+          ./img/work-together/icons/footer-icon_2x.png 2x
+        "
+        src="./img/work-together/icons/footer-icon_1x.png"
+        alt="Logo Picture"
+        class="logo-pic"
+      />
+
+      <h2 class="footer-text">
+        <span class="footer-inline-text"
+          >LET'S <span class="footer-span-text">WORK</span></span
+        >
+        <span class="footer-text-together">TOGETHER</span>
+      </h2>
+    </div>
+    <form class="footer-form-contact" id="cooperationForm" novalidate>
+      <div class="form-inputs">
+        <input
+          class="footer-input"
+          id="email"
+          type="email"
+          placeholder="clients@gmail.com"
+          required
+          pattern="^\w+(\.\w+)?@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$"
+          autocomplete="off"
+        />
+        <span class="validation-text">Succes!</span>
+        <input
+          class="footer-input"
+          id="comments"
+          type="text"
+          placeholder="comments"
+          maxlength="100"
+          autocomplete="off"
+        />
+      </div>
+      <button class="footer-send-btn" type="submit">Send</button>
+    </form>
+    <div class="footer-link">
+      <a
+        class="link-for-footer"
+        href="mailto:lloydjefferson@gmail.com"
+        target="_blank"
+        >lloydjefferson@gmail.com</a
+      >
+      <a
+        class="link-for-footer link-for-footer-tel"
+        href="tel:+3801111111111"
+        target="_blank"
+        >+380 11 1111 11 11</a
+      >
+    </div>
+  </div>
+  <div class="modal-overlay" id="modalOverlay"></div>
+  <div class="modal" id="modal">
+    <button type="button" class="modal-btn">
+      <svg class="modal-btn-icon" width="22" height="22">
+        <use href="./img/sprite.svg#icon-close-footer"></use>
+      </svg>
+    </button>
+    <div class="modal-info">
+      <h2 class="modal-title">Thank you for your interest in cooperation!</h2>
+      <p class="modal-text">
+        The manager will contact you shortly to discuss further details and
+        opportunities for cooperation. Please stay in touch.
+      </p>
+    </div>
+  </div>
+</footer>

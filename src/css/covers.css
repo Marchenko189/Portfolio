@@ -1,0 +1,110 @@
+.covers-section {
+  display: flex;
+  justify-content: center;
+}
+
+.covers-section > .container {
+  padding: 0;
+  max-width: 407px;
+}
+
+.covers-cont {
+  max-height: 508px;
+  position: relative;
+  overflow: hidden;
+
+  background-image: url(../img/covers/background/background_bubbles_1x.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .covers-cont {
+    background-image: url(../img/covers/background/background_bubbles_2x.webp);
+  }
+}
+
+.covers-gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  top: -220px;
+
+  transform: rotate(16deg);
+}
+
+.covers-line {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex-shrink: 0;
+  animation-name: marqueeLine;
+  animation-duration: 17s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-play-state: paused;
+}
+
+.covers-line:nth-child(odd) {
+  animation-name: marqueeLineOdd;
+}
+
+.covers-section.animate .covers-line {
+  animation-play-state: running;
+}
+
+.covers-picture {
+  width: 282px;
+  height: 163px;
+}
+
+@keyframes marqueeLine {
+  from {
+    transform: translateX(-50%);
+  }
+
+  to {
+    transform: translateX(-260%);
+  }
+}
+
+@keyframes marqueeLineOdd {
+  from {
+    transform: translateX(-260%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .covers-section > .container {
+    max-width: 832px;
+  }
+
+  .covers-cont {
+    max-height: 960px;
+  }
+
+  .covers-gallery {
+    gap: 40px;
+    top: -410px;
+  }
+
+  .covers-line {
+    gap: 40px;
+  }
+
+  .covers-picture {
+    width: 544px;
+    height: 314px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .covers-section > .container {
+    max-width: 1520px;
+  }
+}
