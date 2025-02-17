@@ -142,26 +142,26 @@ function changeTheme(color, imgName) {
       // Перевіряємо пристрій
   if (mediaQueryMobile.matches) {
     // Мобільна версія
-    menuImg = `img/header/header-bg_mob_menu-${imgName}@1x.webp`;
-    heroImg = `img/hero/hero-bg_mob-${imgName}@1x.webp`;
+    menuImg = `${window.location.origin}/img/header/header-bg_mob_menu-${imgName}@1x.webp`;
+    heroImg = `${window.location.origin}/img/hero/hero-bg_mob-${imgName}@1x.webp`;
 
     if (dpr >= 2) {
-      menuImg = `img/header/header-bg_mob_menu-${imgName}@2x.webp`;
-      heroImg = `img/hero/hero-bg_mob-${imgName}@2x.webp`;
+      menuImg = `${window.location.origin}/img/header/header-bg_mob_menu-${imgName}@2x.webp`;
+      heroImg = `${window.location.origin}/img/hero/hero-bg_mob-${imgName}@2x.webp`;
     }
   } else if (mediaQueryTablet.matches) {
     // Планшет
-    heroImg = `img/hero/hero-bg_tab-${imgName}@1x.webp`;
+    heroImg = `${window.location.origin}/img/hero/hero-bg_tab-${imgName}@1x.webp`;
 
     if (dpr >= 2) {
-      heroImg = `img/hero/hero-bg_tab-${imgName}@2x.webp`;
+      heroImg = `${window.location.origin}/img/hero/hero-bg_tab-${imgName}@2x.webp`;
     }
   } else if (mediaQueryDesktop.matches) {
     // Десктоп
-    heroImg = `img/hero/hero-bg_desk-${imgName}@1x.webp`;
+    heroImg = `${window.location.origin}/img/hero/hero-bg_desk-${imgName}@1x.webp`;
 
     if (dpr >= 2) {
-      heroImg = `img/hero/hero-bg_desk-${imgName}@2x.webp`;
+      heroImg = `${window.location.origin}/img/hero/hero-bg_desk-${imgName}@2x.webp`;
     }
   }
 
