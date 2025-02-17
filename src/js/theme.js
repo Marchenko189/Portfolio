@@ -203,8 +203,8 @@ function changeTheme(color, imgName) {
         heroImg = dpr >= 2 ? heroMobRed02 : heroMobRed01;
         break;
       case 'orange':
-        menuImg = dpr >= 2 ? import('../img/header/header-bg_mob_menu-orange@2x.webp') : import('../img/header/header-bg_mob_menu-orange@1x.webp');
-        heroImg = dpr >= 2 ? import('../img/hero/hero-bg_mob-orange@2x.webp') : import('../img/hero/hero-bg_mob-orange@1x.webp');
+        menuImg = dpr >= 2 ? headerMobMenuOrange02 : headerMobMenuOrange01;
+        heroImg = dpr >= 2 ? heroMobOrange02 : heroMobOrange01;
         break;
       case 'khaki':
         menuImg = dpr >= 2 ? headerMobMenuKhaki02 : headerMobMenuKhaki01;
