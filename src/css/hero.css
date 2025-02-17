@@ -1,5 +1,5 @@
 .hero-section {
-  background-image: url(../img/hero/hero-bg_mob@1x.webp);
+  background-image: url(../img/hero/hero-bg_mob-red@1x.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -10,7 +10,7 @@
 /* ------------------------------------ */
 @media only screen and (min-resolution: 2dppx) {
   .hero-section {
-    background-image: url(../img/hero/hero-bg_mob@2x.webp);
+    background-image: url(../img/hero/hero-bg_mob-red@2x.webp);
     background-size: cover;
   }
 }
@@ -53,11 +53,11 @@
   justify-content: center;
   align-items: center;
   padding: 10px 10px;
-  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-link:hover,
 .hero-link:focus {
-  border: 1px solid #fafafa;
+  box-shadow: 0 0 10px 2px var(--accent-color);
 }
 @media only screen and (max-width: 374px) {
   .hero-list {
@@ -79,16 +79,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-email:hover,
 .hero-email:focus {
-  border: 1px solid #fafafa;
+  box-shadow: 0 0 10px 2px var(--accent-color);
 }
 /* ------------tablet--------- */
 @media only screen and (min-width: 768px) {
   .hero-section {
-    background-image: url(../img/hero/hero-bg_tab@1x.webp);
+    background-image: url(../img/hero/hero-bg_tab-red@1x.webp);
     padding-top: 300px;
   }
   .hero-section {
@@ -98,7 +98,7 @@
     screen and (min-resolution: 2dppx),
     screen and (min-device-pixel-ratio: 2) {
     .hero-section {
-      background-image: url(../img/hero/hero-bg_tab@2x.webp);
+      background-image: url(../img/hero/hero-bg_tab-red@2x.webp);
       background-size: cover;
     }
   }
@@ -133,7 +133,7 @@
 /* ------------desktop--------- */
 @media only screen and (min-width: 1440px) {
   .hero-section {
-    background-image: url(../img/hero/hero-bg_desk@1x.webp);
+    background-image: url(../img/hero/hero-bg_desk-red@1x.webp);
     background-size: cover;
     padding-top: 300px 178px 243px;
     margin-bottom: 96px;
@@ -148,7 +148,7 @@
     screen and (min-resolution: 2dppx),
     screen and (min-device-pixel-ratio: 2) {
     .hero-section {
-      background-image: url(../img/hero/hero-bg_desk@2x.webp);
+      background-image: url(../img/hero/hero-bg_desk-red@2x.webp);
       background-size: cover;
     }
   }

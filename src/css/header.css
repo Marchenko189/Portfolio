@@ -116,7 +116,7 @@ html {
 
   .header-nav-item:hover,
   .header-nav-item:focus {
-    color: #ed3b44;
+    color: var(--accent-color);
   }
 
   .dropdown-content {
@@ -148,7 +148,7 @@ html {
   width: 163px;
   height: 55px;
   margin-top: -22px;
-  background: #ed3b44;
+  background: var(--accent-color);
   font-family: 'Inter Tight', sans-serif;
   font-weight: 600;
   font-size: 14px;
@@ -186,14 +186,14 @@ html {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url('../img/header/header-bg_mob_menu@1x.jpg');
+  background-image: url('../img/header/header-bg_mob_menu-red@1x.webp');
   display: none;
   z-index: 20;
 }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .mobile-menu {
-    background-image: url('../img/header/heared-bg_mob_menu@2x.jpg');
+    background-image: url('../img/header/heared-bg_mob_menu-red@2x.webp');
   }
 }
 
@@ -297,7 +297,7 @@ html {
   padding: 14px 31px;
   width: 164px;
   height: 45px;
-  background: #ed3b44;
+  background: var(--accent-color);
   font-family: 'Inter Tight', sans-serif;
   font-weight: 600;
   font-size: 14px;
@@ -311,14 +311,90 @@ html {
   margin-top: auto;
 }
 
+/* Стилі для кнопки які змінює тему */
+.header-palete-btn {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 0;
+  border: none;
+  width: 28px;
+  height: 28px;
+  background-color: transparent;
+}
+
+.palete-icon {
+  fill: #fafafa;
+  width: 28px;
+  height: 28px;
+}
+
+.header-menu-target-color {
+  position: absolute;
+  display: none;
+  gap: 2px;
+  bottom: 0;
+  right: 30px;
+}
+
+.target-color {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+}
+
+.palete-red {
+  background-color: #ed3b44;
+}
+
+.palete-orange {
+  background-color: #ff7f08;
+}
+
+.palete-khaki {
+  background-color: #4b5320;
+}
+
+.palete-blue {
+  background-color: #2b4441;
+}
+@media screen and (min-width: 768px) {
+  .header-palete-btn {
+    border: 1px solid #fafafa;
+    border-radius: 50%;
+    right: 180px;
+    top: 0;
+    width: 55px;
+    height: 55px;
+  }
+
+  .palete-icon {
+    width: 45px;
+    height: 45px;
+  }
+
+  .header-menu-target-color {
+    flex-direction: column;
+    gap: 2px;
+    top: 60px;
+    bottom: auto;
+    right: 180px;
+  }
+
+  .target-color {
+    width: 55px;
+    height: 55px;
+  }
+}
+
 /* Стили для кнопки при наведении */
 .mobile-btn:hover {
-  background-color: #e0373f;
+  background-color: color-mix(in srgb, var(--accent-color) 92%, white);
 }
 
 .mobile-btn:active,
 .mobile-btn:focus {
   border: 1px solid rgba(251, 251, 251, 0.2);
   color: #fbfbfb;
-  background: #ed3b44;
+  background: var(--accent-color);
 }

@@ -68,7 +68,7 @@
 }
 
 .footer-span-text {
-  color: #ed3b44;
+  color: var(--accent-color);
 }
 
 .footer-form-contact {
@@ -157,7 +157,7 @@
 
 .footer-send-btn {
   border-radius: 50%;
-  background-color: #ed3b44;
+  background-color: var(--accent-color);
   letter-spacing: -0.02em;
   color: #fafafa;
   width: 100px;
@@ -172,13 +172,13 @@
 .footer-send-btn:hover {
   border: none;
   outline: none;
-  background-color: rgba(224, 55, 63, 1);
+  background-color: color-mix(in srgb, var(--accent-color) 92%, white);
 }
 
 .togetger-button:focus {
   border: none;
   outline: none;
-  background-color: rgba(224, 55, 63, 1);
+  background-color: color-mix(in srgb, var(--accent-color) 92%, white);
 }
 
 .footer-link {
@@ -201,11 +201,11 @@
 }
 
 .link-for-footer:hover {
-  border: 1px solid rgba(250, 250, 250, 1);
+  box-shadow: 0 0 10px 2px var(--accent-color);
 }
 
 .link-for-footer:focus {
-  border: 1px solid rgba(250, 250, 250, 1);
+  box-shadow: 0 0 10px 2px var(--accent-color);
 }
 
 .modal-overlay {

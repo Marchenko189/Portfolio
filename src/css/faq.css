@@ -34,7 +34,7 @@
 
 .js-faq-tr:hover .faq-btn,
 .js-faq-tr:focus .faq-btn {
-  box-shadow: 0 0 10px 2px #ed3b44;
+  box-shadow: 0 0 10px 2px var(--accent-color);
 }
 
 .faq-item-title {

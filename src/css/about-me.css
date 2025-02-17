@@ -44,7 +44,7 @@
 }
 
 .about-span-red {
-    color: #ed3b44;
+    color: var(--accent-color);
 }
 
 .about-span-grey {
@@ -153,7 +153,7 @@
 }
 
 .about-list-scrolls li.swiper-slide-active {
-    background-color: #ed3b44;
+    background-color: var(--accent-color);
     border: none;
     transition: background-color 2s ease, border 2s ease;
 }
@@ -298,15 +298,15 @@
 
 .container-about-txt-vs-arrow:hover .about-svg-container,
 .container-about-txt-vs-arrow:focus .about-svg-container {
-    box-shadow: 0 0 10px 2px #ed3b44;
+    box-shadow: 0 0 10px 2px var(--accent-color);
 }
 
 .container-about-txt-vs-arrow:focus .about-arrow {
     stroke: #3b3b3b;
-    box-shadow: 0 0 10px 2px #ed3b44;
+    box-shadow: 0 0 10px 2px var(--accent-color);
 }
 
 .about-btn-swiper:hover .about-svg-scroll {
     stroke: #fafafa;
-    filter: drop-shadow(0 0 10px #ed3b44);
+    filter: drop-shadow(0 0 10px var(--accent-color));
 }

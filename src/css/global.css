@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+:root {
+  --accent-color: #ed3b44;
+}
+
 body {
   background: #1c1d20;
   margin: 0;
