@@ -142,30 +142,26 @@ function changeTheme(color, imgName) {
       // Перевіряємо пристрій
   if (mediaQueryMobile.matches) {
     // Мобільна версія
-    menuImg = `../img/header/header-bg_mob_menu-${imgName}@1x.webp`;
-    heroImg = `../img/hero/hero-bg_mob-${imgName}@1x.webp`;
+    menuImg = `img/header/header-bg_mob_menu-${imgName}@1x.webp`;
+    heroImg = `img/hero/hero-bg_mob-${imgName}@1x.webp`;
 
     if (dpr >= 2) {
-      menuImg = `../img/header/header-bg_mob_menu-${imgName}@2x.webp`;
-      heroImg = `../img/hero/hero-bg_mob-${imgName}@2x.webp`;
+      menuImg = `img/header/header-bg_mob_menu-${imgName}@2x.webp`;
+      heroImg = `img/hero/hero-bg_mob-${imgName}@2x.webp`;
     }
   } else if (mediaQueryTablet.matches) {
     // Планшет
-    menuImg = `../img/header/header-bg_tab_menu-${imgName}@1x.webp`;
-    heroImg = `../img/hero/hero-bg_tab-${imgName}@1x.webp`;
+    heroImg = `img/hero/hero-bg_tab-${imgName}@1x.webp`;
 
     if (dpr >= 2) {
-      menuImg = `../img/header/header-bg_tab_menu-${imgName}@2x.webp`;
-      heroImg = `../img/hero/hero-bg_tab-${imgName}@2x.webp`;
+      heroImg = `img/hero/hero-bg_tab-${imgName}@2x.webp`;
     }
   } else if (mediaQueryDesktop.matches) {
     // Десктоп
-    menuImg = `../img/header/header-bg_desk_menu-${imgName}@1x.webp`;
-    heroImg = `../img/hero/hero-bg_desk-${imgName}@1x.webp`;
+    heroImg = `img/hero/hero-bg_desk-${imgName}@1x.webp`;
 
     if (dpr >= 2) {
-      menuImg = `../img/header/header-bg_desk_menu-${imgName}@2x.webp`;
-      heroImg = `../img/hero/hero-bg_desk-${imgName}@2x.webp`;
+      heroImg = `img/hero/hero-bg_desk-${imgName}@2x.webp`;
     }
   }
 
