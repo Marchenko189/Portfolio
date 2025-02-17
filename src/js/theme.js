@@ -1,11 +1,42 @@
-// import headerMobMenuRed01 from '../img/header/header-bg_mob_menu-red@1x.webp';
-// import headerMobMenuRed02 from '../img/header/header-bg_mob_menu-red@2x.webp';
+// Імпорт зображень моб меню
+import headerMobMenuRed01 from '../img/header/header-bg_mob_menu-red@1x.webp';
+import headerMobMenuRed02 from '../img/header/header-bg_mob_menu-red@2x.webp';
 import headerMobMenuOrange01 from '../img/header/header-bg_mob_menu-orange@1x.webp';
 import headerMobMenuOrange02 from '../img/header/header-bg_mob_menu-orange@2x.webp';
 import headerMobMenuKhaki01 from '../img/header/header-bg_mob_menu-khaki@1x.webp';
 import headerMobMenuKhaki02 from '../img/header/header-bg_mob_menu-khaki@2x.webp';
 import headerMobMenuBlue01 from '../img/header/header-bg_mob_menu-blue@1x.webp';
 import headerMobMenuBlue02 from '../img/header/header-bg_mob_menu-blue@2x.webp';
+
+// Імпорт зображень моб hero
+import heroMobRed01 from '../img/hero/hero-bg_mob-red@1x.webp';
+import heroMobRed02 from '../img/hero/hero-bg_mob-red@2x.webp';
+import heroMobOrange01 from '../img/hero/hero-bg_mob-orange@1x.webp';
+import heroMobOrange02 from '../img/hero/hero-bg_mob-orange@2x.webp';
+import heroMobKhaki01 from '../img/hero/hero-bg_mob-khaki@1x.webp';
+import heroMobKhaki02 from '../img/hero/hero-bg_mob-khaki@2x.webp';
+import heroMobBlue01 from '../img/hero/hero-bg_mob-blue@1x.webp';
+import heroMobBlue02 from '../img/hero/hero-bg_mob-blue@2x.webp';
+
+// Імпорт зображень таблет hero
+import heroTabRed01 from '../img/hero/hero-bg_tab-red@1x.webp';
+import heroTabRed02 from '../img/hero/hero-bg_tab-red@2x.webp';
+import heroTabOrange01 from '../img/hero/hero-bg_tab-orange@1x.webp';
+import heroTabOrange02 from '../img/hero/hero-bg_tab-orange@2x.webp';
+import heroTabKhaki01 from '../img/hero/hero-bg_tab-khaki@1x.webp';
+import heroTabKhaki02 from '../img/hero/hero-bg_tab-khaki@2x.webp';
+import heroTabBlue01 from '../img/hero/hero-bg_tab-blue@1x.webp';
+import heroTabBlue02 from '../img/hero/hero-bg_tab-blue@2x.webp';
+
+// Імпорт зображень десктоп hero
+import heroDeskRed01 from '../img/hero/hero-bg_desk-red@1x.webp';
+import heroDeskRed02 from '../img/hero/hero-bg_desk-red@2x.webp';
+import heroDeskOrange01 from '../img/hero/hero-bg_desk-orange@1x.webp';
+import heroDeskOrange02 from '../img/hero/hero-bg_desk-orange@2x.webp';
+import heroDeskKhaki01 from '../img/hero/hero-bg_desk-khaki@1x.webp';
+import heroDeskKhaki02 from '../img/hero/hero-bg_desk-khaki@2x.webp';
+import heroDeskBlue01 from '../img/hero/hero-bg_desk-blue@1x.webp';
+import heroDeskBlue02 from '../img/hero/hero-bg_desk-blue@2x.webp';
 
 //  Зміна теми сайту
 const paleteBtn = document.querySelector(".header-palete-btn");
